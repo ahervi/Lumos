@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hervieu.antoine.lumos.MainActivity">
+
+
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        >
+    </Space>
+    <LinearLayout
+
+        android:id="@+id/container2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:context="com.hervieu.antoine.lumos.MainActivity">
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <CheckBox
+
+            android:id="@+id/monday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:checked="false"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/monday" />
+
+        <CheckBox
+            android:id="@+id/tuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:checked="false"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/tuesday" />
+
+        <CheckBox
+            android:id="@+id/wednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:checked="false"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/wednesday" />
+
+        <CheckBox
+            android:id="@+id/thursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:checked="false"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/thursday" />
+
+        <CheckBox
+            android:id="@+id/friday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:checked="false"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/friday" />
+
+        <CheckBox
+            android:id="@+id/satursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:checked="false"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/satursday" />
+
+        <CheckBox
+            android:id="@+id/sunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:checked="false"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/su" />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" >
+        </Space>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:id="@+id/container3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        tools:context="com.hervieu.antoine.lumos.MainActivity">
+    <Button
+        android:id="@+id/music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+
+        android:gravity="center_horizontal|center_vertical"
+
+
+        android:text="@string/music" />
+
+</LinearLayout>
+
+</LinearLayout>
+

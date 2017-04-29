@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lumos</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="monday">Mo</string>
+    <string name="tuesday">Tu</string>
+    <string name="wednesday">We</string>
+    <string name="thursday">Th</string>
+    <string name="friday">Fr</string>
+    <string name="satursday">Sa</string>
+    <string name="sunday">Su</string>
+    <string name="stop_alarm">Stop Alarm</string>
+    <string name="su">Su</string>
+    <string name="noLight" >No lights for this alarm !</string>
+    <string name="music" >Change ringtone</string>
+</resources>
